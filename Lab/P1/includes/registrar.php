@@ -1,4 +1,17 @@
 <?php
+
+/**
+ * * Descripción: registrar en la base de datos
+ * *
+ * * Descripción extensa: acceso a la base de datos
+ * *
+ * * @author  Cristina Rubio Juárez <al375866@uji.es> 
+ * * @copyright 2020 Cris
+ * * @license http://www.fsf.org/licensing/licenses/gpl.txt GPL 2 or later
+ * * @version 1
+ * */
+
+
 include("./gestionBD.php");
 
 function handler($pdo,$table)

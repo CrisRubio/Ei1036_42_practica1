@@ -1,3 +1,15 @@
+
+<!--**
+ * * Descripción: inicio de sesión del Programa Aprender PHP
+ * *
+ * * Descripción extensa: Pagina web dividida en 4 ficheros.
+ * *
+ * * @author  Cristina Rubio Juarez <al375866@uji.es>
+ * * @version 1
+ * * @link http://dllido@al.nisu.org/P0/holaMundo.php
+ * * -->
+
+
 <main>
 	<h1>Gestion de Usuarios </h1>
 	<form class="fom_usuario" action="./datosForm.php" method="POST">

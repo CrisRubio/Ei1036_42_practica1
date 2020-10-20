@@ -1,3 +1,14 @@
+
+<!--**
+ * * Descripción: pie de página del Programa Aprender PHP
+ * *
+ * * Descripción extensa: Pagina web dividida en 4 ficheros.
+ * *
+ * * @author  Cristina Rubio Juarez <al375866@uji.es>
+ * * @version 1
+ * * @link http://dllido@al.nisu.org/P0/holaMundo.php
+ * * -->
+
 <footer>
 	<p>
 	<img src="https://licensebuttons.net/l/by-sa/3.0/88x31.png" height="31px" /><br/>
