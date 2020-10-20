@@ -11,7 +11,7 @@
 
 
 <main>
-	<h1>GestiÓn de Usuarios </h1>
+	<h1>Gestión de Usuarios </h1>
 	<form class="fom_usuario" action="?action=registrar" method="POST">
 
 		<legend>Datos básicos</legend>
@@ -38,12 +38,6 @@
 		<br/>
 		<input type="text" name="address" class="item_requerid" size="20" maxlength="25" value="<?php print $address ?>"
 		 placeholder="Ronda Mijares" />
-		<br/>
-
-		<label for="city">Ciudad</label>
-		<br/>
-		<input type="text" name="city" class="item_requerid" size="20" maxlength="25" value="<?php print $address ?>"
-		 placeholder="Castellón" />
 		<br/>
 
 		<label for="city">Ciudad</label>
