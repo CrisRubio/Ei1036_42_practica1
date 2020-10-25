@@ -17,17 +17,17 @@ body {
 }
 
 header {
-    min-height: 100px;
-    margin-bottom: 5px 5px 5px 5px;
+    /*min-height: 100px;*/
+    /*margin-bottom: 5px 5px 5px 5px;*/
     padding: 5px 5px 5px 5px;
 }
 
 nav, footer {
     clear: both;
     margin-bottom: 10px;
-    padding: 4px;
+    padding: 3px;
     text-align: center;
-    background-color: #914bb9;
+    background-color: #598cdd;
     font-size: 80%;
 }
 
@@ -54,34 +54,26 @@ h2 {
     margin-bottom: 5px;
 }
 
-#logo {
-    float: left;
-    max-width: 15%;
-    min-width: 5%;
-}
-
-#eslogan {
-    float: left;
-    margin: 5% 5%;
-    color: #914bb9;
-}
-
 #registro {
     position: absolute;
     top: 5px;
     right: 10%;
 }
 
-table { background-color:#FFFFE0;
-    border-collapse:collapse;
-    color:#000;
+table { 
     font-size:18px;
-    border:1px;
-    margin: 10px auto; }
-th { background-color:#BDB76B; }
-td, th { border: 1px solid;padding:1px;width: 10%; }
-td { border-bottom:1px dotted #BDB76B; }
+    width: 100%;
+    margin: 0 auto;
+}
+.imgIzq{
+    width: 10%;
+    text-align: right;
+}
 
+img{
+    width: 130px;
+    height: 130px;
+}
 
 #registro a:hover {
     color: blue;

@@ -1,13 +1,12 @@
 <!DOCTYPE html>
-<!--**
- * * Descripción: Cabecera portal Programa Aprender PHP
+<!--
+ * * Descripción: Header
  * *
- * * Descripción extensa: Pagina web dividida en 4 ficheros.
- * *
- * * @author  Lola <dllido@uji.es>
+ * * @author  Cristina Rubio
+ * * @copyright 2020 Cristina R.
+ * * @license http://www.fsf.org/licensing/licenses/gpl.txt GPL 2 or later
  * * @version 1
- * * @link http://dllido@al.nisu.org/P0/holaMundo.php
- * * -->
+-->
 <html>
 
 <head>
@@ -22,6 +21,5 @@
 
 <body>
 	<header>
-		<img src="./img/Logo-ACCE.gif" id="logo" alt="logo" />
-		<p id="eslogan">Asociación de Consumidores de Comercio Electrónico</p>
+		BIENVENIDO
 	</header>

@@ -1,13 +1,9 @@
 <?php
-    //view_form.php
-
 /**
  * * Descripción: Ejemplo de proyecto
  * *
- * * 
- * *
- * * @author  Rafael Berlanga
- * * @copyright 2020 Rafa B.
+ * * @author  Cristina Rubio
+ * * @copyright 2020 Cristina R.
  * * @license http://www.fsf.org/licensing/licenses/gpl.txt GPL 2 or later
  * * @version 1
 
