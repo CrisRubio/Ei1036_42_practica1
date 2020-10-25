@@ -11,7 +11,7 @@
 
 <head>
 	<meta charset="UTF-8">
-	<title>Bienvenido a la web de MI TIENDA</title>
+	<title>CETRÓNICO</title>
 	<META name="Author" content="AlumnoXXX">
 	<link rel="stylesheet" href="./css/estilo.css" type="text/css">
 	

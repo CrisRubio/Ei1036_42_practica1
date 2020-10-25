@@ -45,6 +45,44 @@ h1 {
     color: #666;
 }
 
+button{
+    cursor: pointer;
+    background-color: rgb(235, 142, 55);
+    text-align: center;
+    border-radius: 8px;
+    width: 120px;
+    height: 30px;
+    transition-duration: 0.4s;
+}
+
+button:hover{
+    background-color: rgb(161, 115, 5);
+}
+
+.equipo{
+    float: right;
+    margin-right: 100px;
+}
+
+.compra{
+    float: left;
+    margin-left: 100px;
+}
+
+.socio{
+    float: right;
+    margin-right: 100px;
+}
+
+.inicioSesion{
+    float: left;
+    margin-left: 100px;
+}
+
+.centro{
+    text-align: center;
+}
+
 h2 {
     font-weight: bold;
     font-style: italic;
@@ -68,9 +106,23 @@ table {
     text-align: right;
 }
 
-img{
+.imgMenu{
     width: 130px;
     height: 130px;
+}
+
+.tableCenter{
+    margin: 0 auto;
+    width: 60%;
+}
+
+.imgCenter{
+    width:80px;
+    height: 80px;
+}
+
+.pFooter{
+    text-align: right;
 }
 
 #registro a:hover {

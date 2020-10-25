@@ -1,12 +1,15 @@
 
 <table>
 	<tr>
-		<td class="imgIzq"><img src="./img/Logo.png" id="logo" alt="logo" /></td>
+		<td class="imgIzq"><img class="imgMenu" src="./img/Logo.png" id="logo" alt="logo" /></td>
 		<td>
 			<nav>
 				<ul>
 					<li>
 						<a href="./portal.php?action=home">Home</a>
+					</li>
+					<li>
+						<a href="?action=sobre_nosotros">Sobre nosotros</a>
 					</li>
 					<li>
 						<a href="?action=listar_productos">Productos</a>
