@@ -1,1 +1,4 @@
-<h1>HOLA</h1>
+
+<body>
+    <h1>HOLA</h1>
+</body>

@@ -17,9 +17,3 @@
 	
 
 </head>
-
-
-<body>
-	<header>
-		BIENVENIDO
-	</header>
