@@ -47,7 +47,7 @@ h1 {
 
 button{
     cursor: pointer;
-    background-color: rgb(235, 142, 55);
+    background-color: rgb(78, 230, 159);
     text-align: center;
     border-radius: 8px;
     width: 120px;
@@ -56,7 +56,7 @@ button{
 }
 
 button:hover{
-    background-color: rgb(161, 115, 5);
+    background-color: rgb(52, 228, 204);
 }
 
 .equipo{
@@ -64,19 +64,12 @@ button:hover{
     margin-right: 100px;
 }
 
-.compra{
-    float: left;
-    margin-left: 100px;
+.derecha{
+    align-items: right;
 }
 
-.socio{
-    float: right;
-    margin-right: 100px;
-}
-
-.inicioSesion{
-    float: left;
-    margin-left: 100px;
+.izquierda{
+    align-items: left;
 }
 
 .centro{
