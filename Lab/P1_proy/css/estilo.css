@@ -45,33 +45,6 @@ h1 {
     color: #666;
 }
 
-button{
-    cursor: pointer;
-    background-color: rgb(78, 230, 159);
-    text-align: center;
-    border-radius: 8px;
-    width: 120px;
-    height: 30px;
-    transition-duration: 0.4s;
-}
-
-button:hover{
-    background-color: rgb(52, 228, 204);
-}
-
-.equipo{
-    float: right;
-    margin-right: 100px;
-}
-
-.derecha{
-    align-items: right;
-}
-
-.izquierda{
-    align-items: left;
-}
-
 .centro{
     text-align: center;
 }
@@ -102,24 +75,6 @@ table {
 .imgMenu{
     width: 130px;
     height: 130px;
-}
-
-.tableCenter{
-    margin: 0 auto;
-    width: 60%;
-}
-
-.imgTeam{
-    width:100px;
-    height: 80px;
-}
-
-.team{
-    text-align: right;
-}
-
-.teamFirst{
-    width: 300px;
 }
 
 .imgCenter{
@@ -173,5 +128,27 @@ section#blog {
 
 .der {
     margin-top: 0px;
+    text-align: right;
+}
+
+.perfil{
+    text-align: center;
+}
+
+.imgPerfil{
+    width: 140px;
+    height: 100px;
+}
+
+.nosotros{
+    text-align: center;
+}
+
+.mapa{
+    width: 550px;
+    height: 250px;
+}
+
+.contacto{
     text-align: right;
 }

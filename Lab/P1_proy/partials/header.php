@@ -14,6 +14,5 @@
 	<title>CETRÓNICO</title>
 	<META name="Author" content="AlumnoXXX">
 	<link rel="stylesheet" href="./css/estilo.css" type="text/css">
-	
 
 </head>
