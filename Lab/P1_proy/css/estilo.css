@@ -152,3 +152,18 @@ section#blog {
 .contacto{
     text-align: right;
 }
+
+.centroHome{
+    text-align: center;
+}
+
+.home{
+    margin : 0 auto;
+    text-align: center;
+}
+
+.imgHome{
+    width : 130px;
+    height: 130px;
+    border-radius: 50px;
+}

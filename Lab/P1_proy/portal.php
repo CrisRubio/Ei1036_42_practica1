@@ -15,7 +15,8 @@ include(dirname(__FILE__)."/includes/ejecutarSQL.php");
 $central = "";
 include(dirname(__FILE__)."/partials/header.php");
 include(dirname(__FILE__)."/partials/menu.php");
-//include(dirname(__FILE__)."/includes/conector_BD.php");
+include(dirname(__FILE__)."/includes/conector_BD.php");
+include(dirname(__FILE__)."/includes/table2html.php");
 
 if (isset($_REQUEST['action'])) $action = $_REQUEST["action"];
 else $action = "home";
@@ -40,7 +41,7 @@ switch ($action) {
         $central = registrar_usuario("usuarios"); //tabla usuarios
         break;
     case "listar_productos":
-        $central = table2html("productos"); //tabla productos
+        $central = table2html("usuarios"); //tabla productos
         break;
     case "registrar_producto":
         $central = "<p>Todavia no puedo registrar productos</p>"; //formulario producto
@@ -62,15 +63,9 @@ switch ($action) {
         $central = "/partials/centro.php";
 }
 
-//if ($central <> "") include(dirname(__FILE__).$central);
-include(dirname(__FILE__).$central);
+if ($central <> "") include(dirname(__FILE__).$central);
 include(dirname(__FILE__)."/partials/footer.php");
-
-/*
-include(dirname(__FILE__)."/includes/conector_BD.php");
-include(dirname(__FILE__)."/includes/table2html.php");
 
 include(dirname(__FILE__)."/includes/registrar_usuario.php");
 include(dirname(__FILE__)."/includes/autentificar_usuario.php");
-*/
 ?>
